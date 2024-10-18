@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt  # For plotting data (if needed)
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg  # For embedding matplotlib plots into the GUI
 
 # Define the API key and base URL for the currency exchange API
-api_key = 'f7a784a711c74cbad8952712'
-base_url = 'https://v6.exchangerate-api.com/v6'
+api_key = 'YOUR API KEY'
+base_url = 'URL'
 
 # Fetch the real-time exchange rate between two currencies
 def fetch_real_time_exchange_rate(from_currency, to_currency):
